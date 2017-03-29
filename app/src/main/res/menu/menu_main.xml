@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="app.lixian.myviewdemo.MainActivity">
+
+    <!--<item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+    -
+    <item
+        android:icon="@drawable/abc_ic_menu_selectall_mtrl_alpha"
+        android:title="@string/hello_world">
+
+        <item
+            android:id="@+id/action_cut"
+            android:icon="@drawable/abc_ic_menu_cut_mtrl_alpha"
+            android:title="@string/hello_world"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_cut1"
+            android:icon="@drawable/abc_ic_menu_cut_mtrl_alpha"
+            android:title="@string/hello_world"
+            app:showAsAction="never"/>
+    </item>
+
+</menu>
